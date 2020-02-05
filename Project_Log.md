@@ -1,7 +1,7 @@
 # DAQ_CLASS PROJECT LOG:
 COMP898 Master's Project Repository and LOG
 
-*This is the log of ideas and work on the project:*
+***This is the log of ideas and work on the project:***
 
 Jan 27, 2020
 
