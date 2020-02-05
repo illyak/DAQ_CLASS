@@ -3,7 +3,13 @@ COMP898 Master's Project Repository
 
 This is the log of ideas on the project:
 
+Jan 27, 2020
+
+Uploaded the project proposal. 
+
 Feb 3, 2020
+
+Sketched and uploaded a schematic with various I2C serial bus parts.
 
 Seemingly nothing to do with IT at the moment but hang on... This is the alternative to using the gear in the lab there, I make my own. Not as nicely packaged but the DAQ concepts are all the same. This has a few advantages in portability, conceptual simplicity but also the full-cycle of building a DAQ application start to finish.
 
@@ -19,6 +25,12 @@ There's one that can blink LED lights, U4 is an I/O expander. That maybe should 
 
 Feb 4, 2020
 
-Thinking about the outline dimensions of the board to carry those couple schematic parts there led me to the BeagleBone Black profile which is a preloaded template in the KiCAD. How handy! There are also Arduino, Raspberry Pi and a couple other template outlines. So..... I was thinking exactly about making this board as a "cape" as add-on boards on the BeagleBone are called. The I2C serial is one of many peripherals. You just have to hook up the right pins. 
+Thinking about the outline dimensions of the board to carry those couple schematic parts there led me to the BeagleBone Black profile which is a preloaded template in the KiCAD. How handy! There are also Arduino, Raspberry Pi and a couple other template outlines. So..... I was thinking exactly about making this board as a "cape" as add-on boards on the BeagleBone are called. T
 
-What about Raspberry Pi...? 
+Rather than that FTDI cable, the I2C serial bus is one of many peripherals on the Beagle. You just have to hook up the right pins. 
+
+What about Raspberry Pi...? Also a great part but more for video and flashy MAKER applications. It seems the Beagle is better for industrial, connectivity, robotics, IoT and general engineering stuff, hooking low-level hardware to high-level software. Beagle's processor is a TI part... :) Don't laugh. The company can pay for the boards.
+
+**I don't see why Jupyter Notebook wouldn't run on the Beagle.** 
+
+There was another processor I once looked at, the PYNQ FPGA from Xilinx. But it doesn't look like anything has happened with that, and/or it's too far out for these purposes. Reading sensors and logging data doesn't need that much horsepower. Xilinx documentation is known to be awful in the industry.
