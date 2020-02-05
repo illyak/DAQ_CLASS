@@ -33,4 +33,4 @@ What about Raspberry Pi...? Also a great part but more for video and flashy MAKE
 
 **I don't see why Jupyter Notebook wouldn't run on the Beagle.** 
 
-There was another processor I once looked at, the PYNQ FPGA from Xilinx. But it doesn't look like anything has happened with that, and/or it's too far out for these purposes. Reading sensors and logging data doesn't need that much horsepower. Xilinx documentation is known to be awful in the industry.
+There was another processor I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  But it doesn't look like anything has happened with that, and/or it's too far out for these purposes. Reading sensors and logging data doesn't need that much horsepower. Xilinx documentation is known to be awful in the industry. Like, we need a decent bicycle, not a Porsche.
