@@ -25,12 +25,12 @@ There's one that can blink LED lights, U4 is an I/O expander. That maybe should 
 
 Feb 4, 2020
 
-Thinking about the outline dimensions of the board to carry those couple schematic parts there led me to the BeagleBone Black profile which is a preloaded template in the KiCAD. How handy! There are also Arduino, Raspberry Pi and a couple other template outlines. So..... I was thinking exactly about making this board as a "cape" as add-on boards on the BeagleBone are called. T
+Thinking about the outline dimensions of the board to carry those couple schematic parts there led me to the BeagleBone Black profile which is a preloaded template in the KiCAD. How handy! There are also Arduino, Raspberry Pi and a couple other template outlines. So..... I was thinking exactly about making this board as a "cape" as add-on boards on the BeagleBone are called. 
 
 Rather than that FTDI cable, the I2C serial bus is one of many peripherals on the Beagle. You just have to hook up the right pins. 
 
 What about Raspberry Pi...? Also a great part but more for video and flashy MAKER applications. It seems the Beagle is better for industrial, connectivity, robotics, IoT and general engineering stuff, hooking low-level hardware to high-level software. Beagle's processor is a TI part... :) Don't laugh. The company can pay for the boards.
 
-**I don't see why Jupyter Notebook wouldn't run on the Beagle.** 
+There was another processor I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  But it doesn't look like anything has happened with that, and/or it's too far out for these purposes. Reading sensors and logging data doesn't need that much horsepower. An inconvenience is that it is NOT USB bus-ppowered, you need a separate wall-wort, which is just plain clumsy. Basically, don't need that kind of horsepower anyway for data logging and the like.
 
-There was another processor I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  But it doesn't look like anything has happened with that, and/or it's too far out for these purposes. Reading sensors and logging data doesn't need that much horsepower. Xilinx documentation is known to be awful in the industry. Like, we need a decent bicycle, not a Porsche.
+**I don't see why Jupyter Notebook wouldn't run on the Beagle.** 
