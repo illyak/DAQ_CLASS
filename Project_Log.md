@@ -42,12 +42,12 @@ Feb 6, 2020
 Inspirational chat with Prof Tim... On board with the Beagle idea with the plug-in cape board with some experimenter parts, like the temp sensor. Here is what I think I have to do next (not necessarily in order):
 
 - A survey comparison of the single board computers out there. 
--  This is for the sake of completeness. An ything at the embedded Linux level (Beagle, Raspberry, they'd all be fine. But you want to justify the choice, like due dilligence.
+    This is for the sake of completeness. An ything at the embedded Linux level (Beagle, Raspberry, they'd all be fine. But you want to justify the choice, like due dilligence.
 - A decision on the hardware. Here are some requirement considerations:
--  As self-contained as possible for the sake of fool-proofing and simplicity. No special parts to get lost, nothing to hook up wrong.
--  Power budget is what you get from the USB connector, so less that 5V 250mA. 
--  It'll be a BeagleBone cape outline. Need good reason to deviate from that form factor.
--  Has to do something useful, practical and understandable
+    As self-contained as possible for the sake of fool-proofing and simplicity. No special parts to get lost, nothing to hook up wrong.
+    Power budget is what you get from the USB connector, so less that 5V 250mA. 
+    It'll be a BeagleBone cape outline. Need good reason to deviate from that form factor.
+    Has to do something useful, practical and understandable
 - Dust off the Beagle and burn a new image on it. Play around with it. 
 - Start looking at whether the Notebook will run on it or what it would take.
 
