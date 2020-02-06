@@ -31,7 +31,7 @@ Rather than that FTDI cable, the I2C serial bus is one of many peripherals on th
 
 What about Raspberry Pi...? Also a great part but more for video and flashy MAKER applications. It seems the Beagle is better for industrial, connectivity, robotics, IoT and general engineering stuff, hooking low-level hardware to high-level software. Beagle's processor is a TI part... :) Don't laugh. The company can pay for the boards.
 
-There was another processor board I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  It looked so good because it runs the Jupyter Notebook directly, no fuss. But it doesn't look like anything has happened with that, I mean, there isn't any community type action. So I suspect it is just too much firepower for what one usually does for "fun". Reading sensors and logging data doesn't need that much horsepower. Also an inconvenience is that it is NOT USB bus-powered, you need a separate wall-wort, which is a pain. Basically, don't need that kind of horsepower anyway for data logging and the like.
+There was another processor board I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  It looked so good because it runs the Jupyter Notebook directly, no fuss. But it doesn't look like anything has happened with that, I mean, there isn't any community type action. I suspect it is just too much firepower for what one usually does for "fun" and then most all the developments with it will be company proprietary stuff. Reading sensors and logging data doesn't need that much horsepower. Also an inconvenience is that it is NOT USB bus-powered, you need a separate wall-wort, which is a pain. Basically, don't need that kind of horsepower anyway for data logging and the like.
 
 **I don't see why Jupyter Notebook wouldn't run on the Beagle.** 
 
@@ -40,5 +40,15 @@ That is what I am looking into.
 Feb 6, 2020
 
 Inspirational chat with Prof Tim... On board with the Beagle idea with the plug-in cape board with some experimenter parts, like the temp sensor. Here is what I think I have to do next (not necessarily in order):
-- A compare of the single board computers. 
+
+- A survey comparison of the single board computers out there. 
+-- This is for the sake of completeness. An ything at the embedded Linux level (Beagle, Raspberry, they'd all be fine. But you want to justify the choice, like due dilligence.
+- A decision on the hardware. Here are some requirement considerations:
+-- As self-contained as possible for the sake of fool-proofing and simplicity. No special parts to get lost, nothing to hook up wrong.
+-- Power budget is what you get from the USB connector, so less that 5V 250mA. 
+-- It'll be a BeagleBone cape outline. Need good reason to deviate from that form factor.
+-- Has to do something useful, practical and understandable
+- Dust off the Beagle and burn a new image on it. 
+- Start looking at whether the Notebook will run on it or what it would take.
+
 
