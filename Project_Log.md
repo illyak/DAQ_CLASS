@@ -15,7 +15,7 @@ Seemingly nothing to do with IT at the moment but hang on... This is the alterna
 
 The free board layout software I tried, KiCAD: https://kicad-pcb.org/    works quite well enough to get this kind of stuff done. As an aside test, I made a little coupon board for work and sent it out today. Typical turnaround takes about a week and the blank boards come back which you then solder the parts to. 
 
-With the parts soldered in place, that FTDI cable (see datasheet here attached) talks to all of them via the I2C serial protocol which you write from Jupyter (or MATLAB, LabVIEW, etc). I do this frequently. It works dandy.
+With the parts soldered in place, an FTDI cable: https://www.ftdichip.com/Products/Cables/USBMPSSE.htm talks to all of them via the I2C serial protocol which you write from Jupyter (or MATLAB, LabVIEW, etc). I do this frequently. It works dandy.
 
 So a finished notebook could be a temperature strip chart, reading that TMP100 sensor (U5 on the schematic) and updating a chart running in Jupyter.  Put your finger on it and the chart respond with a rising peak. 
 
@@ -31,8 +31,14 @@ Rather than that FTDI cable, the I2C serial bus is one of many peripherals on th
 
 What about Raspberry Pi...? Also a great part but more for video and flashy MAKER applications. It seems the Beagle is better for industrial, connectivity, robotics, IoT and general engineering stuff, hooking low-level hardware to high-level software. Beagle's processor is a TI part... :) Don't laugh. The company can pay for the boards.
 
-There was another processor I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  IT looked so good because it runs the Jupyter Notebook. But it doesn't look like anything has happened with that, and/or it's too far out for these purposes. Reading sensors and logging data doesn't need that much horsepower. An inconvenience is that it is NOT USB bus-powered, you need a separate wall-wort, which is just plain clumsy. Basically, don't need that kind of horsepower anyway for data logging and the like.
+There was another processor board I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  It looked so good because it runs the Jupyter Notebook directly, no fuss. But it doesn't look like anything has happened with that, I mean, there isn't any community type action. So I suspect it is just too much firepower for what one usually does for "fun". Reading sensors and logging data doesn't need that much horsepower. Also an inconvenience is that it is NOT USB bus-powered, you need a separate wall-wort, which is a pain. Basically, don't need that kind of horsepower anyway for data logging and the like.
 
 **I don't see why Jupyter Notebook wouldn't run on the Beagle.** 
 
 That is what I am looking into.
+
+Feb 6, 2020
+
+Inspirational chat with Prof Tim... On board with the Beagle idea with the plug-in cape board with some experimenter parts, like the temp sensor. Here is what I think I have to do next (not necessarily in order):
+- A compare of the single board computers. 
+
