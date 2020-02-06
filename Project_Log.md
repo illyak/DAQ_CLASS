@@ -45,7 +45,7 @@ Inspirational chat with Prof Tim... On board with the Beagle idea with the plug-
     - This is for the sake of completeness. Anything running embedded Linux is plenty for this. Beagle, Raspberry, they'd all be fine. But you want to justify the choice, like due dilligence.
 - A decision on the hardware. Here are some immediate thoughts:
     - As self-contained as possible for the sake of fool-proofing and simplicity. No special parts to get lost, nothing to hook up wrong.
-    - Power budget is what you get from the USB connector, so less that 5V 250mA. 
+    - Power budget is what you get from the USB connector, so less than 5V 250mA. 
     - It'll be a BeagleBone cape outline. Need good reason to deviate from that form factor.
     - Has to do something undeniably fun and inherently interesting.
 - Dust off the Beagle and burn a new image on it. Play around with it. 
