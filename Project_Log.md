@@ -8,7 +8,6 @@ Jan 27, 2020
 Uploaded the project proposal. 
 
 Feb 3, 2020
------
 
 Sketched and uploaded a schematic with various I2C serial bus parts.
 
@@ -40,17 +39,18 @@ That is what I am looking into.
 
 Feb 6, 2020
 
-Inspirational chat with Prof Tim... On board with the Beagle idea with the plug-in cape board with some experimenter parts, like the temp sensor. Here is what I think I have to do next (not necessarily in order):
+Inspirational chat with Prof Tim... In agreement with the Beagle idea with the plug-in cape board with some experimenter parts, like the temp sensor. Here is what I think are immediate next steps (not necessarily in order):
 
 - A survey comparison of the single board computers out there. 
-    - This is for the sake of completeness. Anything running embedded Linux is plenty for this. Beagle, Raspberry, they'd all be fine. But you want to justify the choice, like due dilligence. Goes straight into the final report anyway.
+    - Anything running embedded Linux is plenty for reading a sensor and logging data! Beagle, Raspberry, they'd all be fine. But you want to justify the choice, like due dilligence, and this reasoning goes straight into the final report anyway.
 - A decision on the hardware. Here are some immediate thoughts:
     - As self-contained as possible for the sake of fool-proofing and simplicity. No special parts to get lost, nothing to hook up wrong.
-    - Power budget is what you get from the USB connector, so less than 5V 250mA. 
-    - It'll be a BeagleBone cape outline. Need good reason to deviate from that form factor.
+    - Power budget is what you get from the USB connector under teathered operation, so less than 5V 250mA. 
+    - It'll be a BeagleBone cape outline. 
     - Has to do something undeniably fun and inherently interesting.
-- Check what other capes are out there so I'm not duplicating previous effort.
+- Check what other capes are out there so I'm not ignorantly duplicating previous effort.
 - Dust off the Beagle and burn a new image on it. Play around with it. 
 - Start looking at whether the Notebook can run on it or what it would take.
+- Start keeping track of references, maybe as another markup file, of relevant books, websites, projects, etc.
 
 
