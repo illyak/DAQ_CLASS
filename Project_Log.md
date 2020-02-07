@@ -8,7 +8,7 @@ Jan 27, 2020
 Uploaded the project proposal. 
 
 Feb 3, 2020
----
+-----
 
 Sketched and uploaded a schematic with various I2C serial bus parts.
 
