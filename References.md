@@ -14,7 +14,7 @@ Websites:
 
 Products:
 ---
-- The BeagleBone Black site: https://beagleboard.org/black
+- Home page of the BeagleBone Black itself: https://beagleboard.org/black
 - These guys are on it: https://www.adafruit.com/
 - 
 
