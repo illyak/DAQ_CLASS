@@ -5,7 +5,7 @@ Books:
 - **Exploring BeagleBone: Tools and Techniques for Building with Embedded Linux, Derek Molloy, 2nd Edition**
     - Very excellent and relevant book, might even make a good class textbook: https://www.amazon.com/Exploring-BeagleBone-Techniques-Building-Embedded/dp/1119533163/ref=sr_1_1?keywords=derek+molloy&qid=1581087485&sr=8-1
 - **Real World Instrumentation with Python: Automated Data Acquisition and Control Systems, J M Hughes** 
-    - Good general read if you are completely new to the lab bench environment. Otherwise rather dated material and written in a peculiar technician's style: https://www.amazon.com/RealWorldInstrumentationPythonAcquisition/dp/0596809565/ref=sr_1_1crid=2YAI68J0HYH68&keywords=real+world+instrumentation+with+python&qid=1581087562&sprefix=python+instrument%2Caps%2C248&sr=8-1
+    - Decent general read if you are completely new to the lab bench environment and can get it from the library or Safari, not worth buying. Otherwise rather dated material, I mean dated already at publishing time: https://www.amazon.com/RealWorldInstrumentationPythonAcquisition/dp/0596809565/ref=sr_1_1crid=2YAI68J0HYH68&keywords=real+world+instrumentation+with+python&qid=1581087562&sprefix=python+instrument%2Caps%2C248&sr=8-1
 
 Websites:
 ---
