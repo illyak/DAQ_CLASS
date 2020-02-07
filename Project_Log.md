@@ -41,6 +41,7 @@ Feb 6, 2020
 
 Inspirational chat with Prof Tim... In agreement with the Beagle idea with the plug-in cape board with some experimenter parts, like the temp sensor. Here is what I think are immediate next steps (not necessarily in order):
 
+- Write up the formal proposal this weekend, at least to hit that milestone. Can be updated later, as needed.
 - A survey comparison of the single board computers out there. 
     - Anything running embedded Linux is plenty for reading a sensor and logging data! Beagle, Raspberry, they'd all be fine. But you want to justify the choice, like due dilligence, and this reasoning goes straight into the final report anyway.
 - A decision on the hardware. Here are some immediate thoughts:
