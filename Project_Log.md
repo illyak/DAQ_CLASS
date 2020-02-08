@@ -33,9 +33,7 @@ What about Raspberry Pi...? Also a great part but more for video and flashy MAKE
 
 There was another processor board I once looked at, the PYNQ FPGA from Xilinx: http://www.pynq.io/  It looked so good because it runs the Jupyter Notebook directly, no fuss. But it doesn't look like anything has happened with that, I mean, there isn't any community type action. I suspect it is just too much firepower for what one usually does for "fun" and then most all the developments with it will be company proprietary stuff. Reading sensors and logging data doesn't need that much horsepower. Also an inconvenience is that it is NOT USB bus-powered, you need a separate wall-wort, which is a pain. Basically, don't need that kind of horsepower anyway for data logging and the like.
 
-**I don't see why Jupyter Notebook wouldn't run on the Beagle.** 
-
-That is what I am looking into.
+I don't see why Jupyter Notebook wouldn't run on the Beagle. That is what I am looking into.
 
 **Feb 6, 2020**
 
