@@ -46,9 +46,14 @@ I looked at:
         - 100% open source project, both hardware and software
     - Cons:
         - Needs USB 3.0 to run tethered. 
-        - About 2x the price of the RPi, but still not inaccessible.
+        - Might run hot and need cooling, depending on what is running (there's a little fan available)
+        - About 2x the price of the RPi (pinches but doesn't disqualify it)
 
-    - Beagle is 100% open source design. You don't get a Raspberry schematic, let alone the PCB design files. Of course, designing your own computer board isn't for the faint-hearted. 
-    - The new BeagleBone AI is a rocket at the expense of needing USB 3.0 to run tethered. 
-    - The older BeagleBone Black runs cool tethered on a USB 2.0.  
-    - The BeagleBone Black or AI can use the same "cape" plug-in board and are compatible, so far as the peripherals are common, which many of the baseline features are. 
+**The BeagleBone is the choice and here's why:** <br>
+- Price is accessible. Boards are in stock at several suppliers.
+- 100% open source project best suits the university
+- The AM5729 processor is an industrial controller with impressive specs.
+- BeagleBones have the same "cape" (plug-in board) board shape. Capes are cross-compatible, so far as the peripherals are common, which many of the baseline features are. 
+- You can chose between a low-power Beagle and a strong processor Beagle
+- The PRU processor allows real-time processing, data streaming.
+
