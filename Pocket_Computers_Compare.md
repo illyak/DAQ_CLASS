@@ -12,7 +12,7 @@ Here are some of the considerations relevant to this project:
 - To be able to collect real data in a university and/or industrial setting
     - So for learning how to do it but also for actually doing it
 - Run Jupyter Notebook
-- Accepts a daughtercard type plug-in with assorted sensors.
+- Accepts a daughtercard type plug-in with assorted actuators or sensors.
 - Able to interface with lab bench instruments (multimeters, waveform generators, oscilloscopes, etc)
 - Nominal/reasonable cost
 
@@ -62,8 +62,8 @@ There's also the practical side of price, availability, user base, ease of use, 
 - Price is accessible. Boards are in stock at several suppliers
 - 100% open source project best suits the university
 - Fully documented and all design files available. Redoing the board isn't for the faint-hearted, but possible
-- The AM5729 processor in teh AI version is an industrial controller with impressive specs
+- There are two flavors: You can chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
+- The AM5729 processor in the AI version is an industrial controller with impressive specs
 - The two BeagleBones have the same cape pinout and footprint. Many of the peripherals are common, which means the capes would be cross-compatible 
-- You can chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
 - The PRU processor allows real-time processing, data streaming
 
