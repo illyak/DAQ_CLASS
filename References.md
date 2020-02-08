@@ -14,7 +14,7 @@ Books:
 Websites:
 ---
 - Looks like these guys are doing something similar but can't make out the details of their class or extended school project: https://guitar.ucsd.edu/beaglebone/index.php/Completed_Tasks
-- Some class at Cambridge, England is also doing something relevant. They aare pparently running Notebook on the Beagle using FreeBSD OS: https://www.cl.cam.ac.uk/teaching/1617/L41/2016-2017-l41-labsetup.pdf
+- Some class at Cambridge, England is also doing something relevant. They are apparently running Notebook on the Beagle using FreeBSD OS: https://www.cl.cam.ac.uk/teaching/1617/L41/2016-2017-l41-labsetup.pdf
 
 Products:
 ---
