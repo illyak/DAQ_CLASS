@@ -1,10 +1,12 @@
-### Compare Pocket Computers:
+# Compare Pocket Computers:
 
-Done nicely on wiki, a full spec comparison matrix including all those you never heard of:<br>
+*Done nicely on wiki, a full spec comparison matrix including all those you never heard of:*<br>
 https://en.wikipedia.org/wiki/Comparison_of_single-board_computers
 <br>
 
-How do you do this, comparing and picking the "best" pocket computer? Depends what you want to do, of course! Here are some of the considerations relevant to this project:
+### How do you do this, comparing and picking the "best" pocket computer? Depends what you want to do, of course! 
+
+Here are some of the considerations relevant to this project:
 - To be used as a **data acquisition engine**
 - To be able to collect real data in a university and/or industrial setting
     - So for learning how to do it but also for actually doing it
