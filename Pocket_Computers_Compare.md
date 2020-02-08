@@ -1,16 +1,17 @@
 # Compare Pocket Computers:
 
-Done nicely on wiki, a full spec comparison matrix:<br>
+Done nicely on wiki, a full spec comparison matrix including all those you never heard of:<br>
 https://en.wikipedia.org/wiki/Comparison_of_single-board_computers
 <br>
 
-How do you do this, comparing and picking the "best" pocket computer? Depends what you want to use it for. Here are some of the considerations: 
-- To be used as a **data acquisition** engine.
-- To be able to collect real data in a university and/or industrial setting. 
+How do you do this, comparing and picking the "best" pocket computer? Depends what you want to do, of course! Here are some of the considerations relevant to this project:
+- To be used as a **data acquisition engine**
+- To be able to collect real data in a university and/or industrial setting
+    - So for learning how to do it but also for actually doing it
 - Run Jupyter Notebook
 - Nominal/reasonable cost
 
-If you acquire data from a sensor once every second, almost any cheap microcontroller will do. However, as acquisition speeds and resolutions increase, the data through-put increases and then you start to need real processing power. Being able to compute or display results will require even more. Running Jupyter Notebook requires more yet still. 
+For acquiring data from a sensor once every second, almost any cheap microcontroller will do. However, as acquisition speeds and resolutions increase, the data through-put increases and then real processing power is needed. Being able to compute or display results will require even more. Running the whole thing under Jupyter Notebook requires more yet still. 
 
 There's also the practical side of price, availability, user base, ease of use, etc. That narrows it down quickly to the following short list which I looked at:
 
