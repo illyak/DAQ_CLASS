@@ -13,7 +13,8 @@ There's also the practical side of price, availability, user base, ease of use, 
 I looked at:
 
 - ***Raspberry Pi 4***
-    - Very popular
+    - Pros
+        - Very popular
 - ***Arduino***
     - Very popular
 - ***BeagleBone Black***
