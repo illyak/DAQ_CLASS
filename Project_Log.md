@@ -3,11 +3,11 @@ COMP898 Master's Project Repository and LOG
 
 ***This is the log of ideas and work on the project:***
 
-#Jan 27, 2020#
+**Jan 27, 2020**
 
 Uploaded the project proposal. 
 
-Feb 3, 2020
+**Feb 3, 2020**
 
 Sketched and uploaded a schematic with various I2C serial bus parts.
 
@@ -23,7 +23,7 @@ Another one would be reading/writing text to that EEPROM (U2). It's "only" 256kb
 
 There's one that can blink LED lights, U4 is an I/O expander. That maybe should be increased to drive 7-segment displays and then numbers. The temperature read from the TMP100 sensor can be displayed. 
 
-Feb 4, 2020
+**Feb 4, 2020**
 
 Thinking about the outline dimensions of the board to carry those couple schematic parts there led me to the BeagleBone Black profile which is a preloaded template in the KiCAD. The stars are aligning. There are also Arduino, Raspberry Pi and a couple other template outlines. MAking a custom outline isn't that big a deal either. But ..... I was thinking exactly about making this board as a "cape" as add-on boards on the BeagleBone are called. 
 
@@ -37,7 +37,7 @@ There was another processor board I once looked at, the PYNQ FPGA from Xilinx: h
 
 That is what I am looking into.
 
-Feb 6, 2020
+**Feb 6, 2020**
 
 Inspirational chat with Prof Tim... In agreement with the Beagle idea with the plug-in cape board with some experimenter parts, like the temp sensor. Here is what I think are immediate next steps (not necessarily in order):
 
