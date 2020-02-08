@@ -4,7 +4,7 @@
 https://en.wikipedia.org/wiki/Comparison_of_single-board_computers
 <br>
 
-### How do you do this, comparing and picking the "best" pocket computer? Depends what you want to do, of course! 
+#### How do you do this, comparing and picking the "best" pocket computer? Depends what you want to do, of course! 
 
 Here are some of the considerations relevant to this project:
 - To be used as a **data acquisition engine**
