@@ -9,7 +9,7 @@ Books:
     - Good and relevant: <br> 
     https://www.amazon.com/Learning-BeagleBone-Python-Programming-Alexander/dp/1784399701/ref=pd_rhf_ee_p_img_3?_encoding=UTF8&psc=1&refRID=KMKVYANBN3NKED99XZK9
 - **Real World Instrumentation with Python: Automated Data Acquisition and Control Systems, J M Hughes** 
-    - This is more of a general lab tutorial which just brushes over Python while making a sweeping survey of seemingly everything and then falls short at what the title of the book originally claimed. The guys giving the great book reviews have probably never set foot in a lab. Still, it's all stuff you need to know and here it is written in an accessable style: <br> https://www.amazon.com/RealWorldInstrumentationPythonAcquisition/dp/0596809565/ref=sr_1_1crid=2YAI68J0HYH68&keywords=real+world+instrumentation+with+python&qid=1581087562&sprefix=python+instrument%2Caps%2C248&sr=8-1
+    - This is more of a general lab tutorial which just brushes over Python while making a sweeping survey of seemingly everything starting right from the Bohr model of the atom but then falls short of what the title of the book originally claimed. The guys giving the great book reviews have probably never set foot in a lab. Still, it's all stuff you need to know and here it is written in an accessable style: <br> https://www.amazon.com/RealWorldInstrumentationPythonAcquisition/dp/0596809565/ref=sr_1_1crid=2YAI68J0HYH68&keywords=real+world+instrumentation+with+python&qid=1581087562&sprefix=python+instrument%2Caps%2C248&sr=8-1
 
 Websites:
 ---
