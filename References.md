@@ -9,7 +9,7 @@ Books:
     - Good and relevant: <br> 
     https://www.amazon.com/Learning-BeagleBone-Python-Programming-Alexander/dp/1784399701/ref=pd_rhf_ee_p_img_3?_encoding=UTF8&psc=1&refRID=KMKVYANBN3NKED99XZK9
 - **Real World Instrumentation with Python: Automated Data Acquisition and Control Systems, J M Hughes** 
-    - Decent general read if you are completely new to the lab bench environment. This is more of a basic lab tutorial with a pinch of python thrown in: <br> https://www.amazon.com/RealWorldInstrumentationPythonAcquisition/dp/0596809565/ref=sr_1_1crid=2YAI68J0HYH68&keywords=real+world+instrumentation+with+python&qid=1581087562&sprefix=python+instrument%2Caps%2C248&sr=8-1
+    - This is more of a basic lab tutorial with a pinch of Python thrown in, Doesn't quite live up to the title: <br> https://www.amazon.com/RealWorldInstrumentationPythonAcquisition/dp/0596809565/ref=sr_1_1crid=2YAI68J0HYH68&keywords=real+world+instrumentation+with+python&qid=1581087562&sprefix=python+instrument%2Caps%2C248&sr=8-1
 
 Websites:
 ---
