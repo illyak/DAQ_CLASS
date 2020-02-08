@@ -4,13 +4,15 @@ Done nicely on wiki, a full spec comparison matrix:<br>
 https://en.wikipedia.org/wiki/Comparison_of_single-board_computers
 <br>
 
-How do you do this, comparing and picking the "best" pocket computer? Depends what you want to use it for. We want to use it for **data acquisition.** We want to be able to collect real data in a university and/or industrial setting. We want to run Python Jupyter Notebook.  
+How do you do this, comparing and picking the "best" pocket computer? Depends what you want to use it for. Here are some of the considerations: 
+- To be used as a **data acquisition** engine.
+- To be able to collect real data in a university and/or industrial setting. 
+- Run Jupyter Notebook
+- Nominal/reasonable cost
 
-If you acquire data from a sensor once every second, almost any cheap microcontroller can keep up. However, as acquisition speeds and resolutions increase, the data through-put increases and then you start to need real processing power. Being able to compute or display results will require even more. 
+If you acquire data from a sensor once every second, almost any cheap microcontroller will do. However, as acquisition speeds and resolutions increase, the data through-put increases and then you start to need real processing power. Being able to compute or display results will require even more. Running Jupyter Notebook requires more yet still. 
 
-There's also the practical side of price, availability, user base, ease of use, etc. That narrows it down quickly. 
-
-I looked at:
+There's also the practical side of price, availability, user base, ease of use, etc. That narrows it down quickly to the following short list which I looked at:
 
 - ***Raspberry Pi 4***
     - Pros:
@@ -29,7 +31,7 @@ I looked at:
         - Lowest cost
         - Easiest way to add "smarts" to a project
     - Cons:
-        - Atmel microcontroller core, not running embedded Linux disqualifies it.
+        - Atmel microcontroller core, not running embedded Linux ***disqualifies it.***
 - ***BeagleBone Black***
     - Pros:
         - Popular enough
