@@ -13,10 +13,20 @@ There's also the practical side of price, availability, user base, ease of use, 
 I looked at:
 
 - ***Raspberry Pi 4***
-    - Pros
+    - Pros:
         - Very popular
+        - Low cost
+        - Widely avilable
+    - Cons:
+        - Target audience is kids. Nothing wrong about that per se. It's meant for kids of all ages.
+        - Proprietary design
 - ***Arduino***
-    - Very popular
+    - Pros:
+        - Very popular
+        - Lowest cost
+        - Easiest way to add "smarts" to something
+    - Cons:
+        - Atmel microcontroller core, not running embedded Linux
 - ***BeagleBone Black***
 
 - ***BeagleBone AI***
