@@ -1,4 +1,4 @@
-# Compare Pocket Computers:
+### Compare Pocket Computers:
 
 Done nicely on wiki, a full spec comparison matrix including all those you never heard of:<br>
 https://en.wikipedia.org/wiki/Comparison_of_single-board_computers
