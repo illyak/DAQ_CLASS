@@ -23,9 +23,10 @@ There's also the practical side of price, availability, user base, ease of use, 
         - No fatal flaws, would work too
     - Cons:
         - Needs USB 3.0 to run tethered.
-        - Uses a Broadcom multimedia processor which makes it better for 
-        - Target audience is kids. Nothing wrong about that per se. It's meant for kids of all ages.
-        - It's a proprietary design. Maybe that's not the best way in a university setting.
+        - Uses a Broadcom multimedia processor which is intended for entertainment.
+            - *Arguably, entertainment is serious business*
+        - Target audience is kids, look at the starter guide. Nothing wrong about that per se. It's meant for kids of all ages.
+        - It's a proprietary design. 
 - ***Arduino***
     - Pros:
         - Very popular
