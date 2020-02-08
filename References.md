@@ -20,8 +20,8 @@ Products:
 ---
 - Home page of the BeagleBone Black: https://beagleboard.org/black
 - Home page of the BeagleBone AI: https://beagleboard.org/AI
-- The homepage of the hilarious BeagleBone AI processor, including the 8063-page (!!) manual: http://www.ti.com/lit/ug/spruhz6l/spruhz6l.pdf
-- Raspberry Pi - the worthy competitor to the BeagleBone. The very nice starter manual which obviously targets youngsters: https://magpi.raspberrypi.org/books/beginners-guide-3rd-ed/pdf
+- The homepage of the hilarious BeagleBone AI processor, including the 8063-page (!!) manual: http://www.ti.com/product/AM5729
+- Raspberry Pi - the alternate to the BeagleBone. The very nicely done starter manual which obviously targets youngsters: https://magpi.raspberrypi.org/books/beginners-guide-3rd-ed/pdf
 - These guys are already doing it, selling various plugable boards to get going quick: https://www.adafruit.com/
 - 
 
