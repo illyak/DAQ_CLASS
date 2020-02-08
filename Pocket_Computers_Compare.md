@@ -61,8 +61,9 @@ There's also the practical side of price, availability, user base, ease of use, 
 **The BeagleBone is the choice and here's why:** <br>
 - Price is accessible. Boards are in stock at several suppliers.
 - 100% open source project best suits the university
-- The AM5729 processor is an industrial controller with impressive specs.
-- BeagleBones have the same "cape" (plug-in board) board shape. Capes are cross-compatible, so far as the peripherals are common, which many of the baseline features are. 
+- Fully documented and all design files available. Redoing the board isn't for the faint-hearted, but possible
+- The AM5729 processor is an industrial controller with impressive specs
+- BeagleBones have the same plug-in board footprint which makes them cross-compatible, as far as the peripherals are common, which many of the core features are. 
 - You can chose between a low-power Beagle and a strong processor Beagle
 - The PRU processor allows real-time processing, data streaming.
 
