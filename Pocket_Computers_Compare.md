@@ -1,15 +1,20 @@
 # Compare Pocket Computers:
 
-How do you do this, comparing and picking the "best" pocket computer? Depends what you want to use it for.
+Done nicely on wiki: https://en.wikipedia.org/wiki/Comparison_of_single-board_computers
+<br>
 
-The point of all this is data acquisition. We want to be able to collect real data in a university and/or industrial setting. 
+How do you do this, comparing and picking the "best" pocket computer? Depends what you want to use it for. The point of all this is **data acquisition.** We want to be able to collect real data in a university and/or industrial setting. 
 
-Almost any microcontroller can read a temperature sensor these days. If you read once every second, that would be adequate sample rate.  
+If you read a sensor once every second, almost any cheap microcontroller can keep up. However, as acquisition speeds and resolutions increase, the data through-put increases and then you start to need real processing power. Being able to compute or display results will require even more processing capability. 
 
-As acquisition speeds and resolutions increase however, the data through-put increases and then you start to need real processing power. Being able to compute or display results will require even more processing. 
+I looked at:
+- BeagleBone Black
+- BeagleBone AI
+- Raspberry Pi 4
+- Arduino
 
 
-- Beagle is 100% open source design. You don't get a Raspberry schematic, let alone the PCB design files. Of course, doing your own board isn't for the faint-hearted. 
+- Beagle is 100% open source design. You don't get a Raspberry schematic, let alone the PCB design files. Of course, designing your own computer board isn't for the faint-hearted. 
 - The new BeagleBone AI is a rocket at the expense of needing USB 3.0 to run tethered. 
 - The older BeagleBone Black runs cool tethered on a USB 2.0.  
-- The BeagleBone Black or AI can use the same "cape" plug-in board and are compatible, so far as the peripherals are common, which many of the standard issue ones are. 
+- The BeagleBone Black or AI can use the same "cape" plug-in board and are compatible, so far as the peripherals are common, which many of the baseline features are. 
