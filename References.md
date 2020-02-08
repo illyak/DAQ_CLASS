@@ -19,7 +19,7 @@ Websites:
 Products:
 ---
 - Home page of the BeagleBone Black itself: https://beagleboard.org/black
-- Raspberry Pi - the worthy competitor to the BeagleBone. The very nice starter manual: https://magpi.raspberrypi.org/books/beginners-guide-3rd-ed/pdf
-- These guys are already doing it. Sell various plugable boards to get going quick: https://www.adafruit.com/
+- Raspberry Pi - the worthy competitor to the BeagleBone. The very nice starter manual which obviously targets youngsters: https://magpi.raspberrypi.org/books/beginners-guide-3rd-ed/pdf
+- These guys are already doing it, selling various plugable boards to get going quick: https://www.adafruit.com/
 - 
 
