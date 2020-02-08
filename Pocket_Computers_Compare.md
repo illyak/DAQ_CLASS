@@ -12,7 +12,8 @@ Here are some of the considerations relevant to this project:
 - To be able to collect real data in a university and/or industrial setting
     - So for learning how to do it but also for actually doing it
 - Run Jupyter Notebook
-- Interface with lab bench instruments (multimeters, waveform generators, oscilloscopes, etc)
+- Accepts a daughtercard type plug-in with assorted sensors.
+- Able to interface with lab bench instruments (multimeters, waveform generators, oscilloscopes, etc)
 - Nominal/reasonable cost
 
 For acquiring data from a sensor once every second, almost any cheap microcontroller will do. However, as acquisition speeds and resolutions increase, the data through-put increases and then real processing power is needed. Being able to compute or display results will require even more. Running under Jupyter Notebook requires more yet still. 
