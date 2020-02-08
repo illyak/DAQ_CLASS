@@ -9,9 +9,10 @@ How do you do this, comparing and picking the "best" pocket computer? Depends wh
 - To be able to collect real data in a university and/or industrial setting
     - So for learning how to do it but also for actually doing it
 - Run Jupyter Notebook
+- Interface with lab bench instruments (multimeters, waveform generators, oscilloscopes, etc)
 - Nominal/reasonable cost
 
-For acquiring data from a sensor once every second, almost any cheap microcontroller will do. However, as acquisition speeds and resolutions increase, the data through-put increases and then real processing power is needed. Being able to compute or display results will require even more. Running the whole thing under Jupyter Notebook requires more yet still. 
+For acquiring data from a sensor once every second, almost any cheap microcontroller will do. However, as acquisition speeds and resolutions increase, the data through-put increases and then real processing power is needed. Being able to compute or display results will require even more. Running under Jupyter Notebook requires more yet still. 
 
 There's also the practical side of price, availability, user base, ease of use, etc. That narrows it down quickly to the following short list which I looked at:
 
