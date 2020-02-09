@@ -28,7 +28,7 @@ A comprehensive performance comparison would make a project in itself, so this i
         - Needs USB 3.0 power to run tethered
         - Uses a Broadcom multimedia processor which is intended for entertainment.
             - *Entertainment is mostly what people are using it for*
-        - Target audience is kids, look at the starter guide. Nothing wrong with that per se, kids of all ages.
+        - Target audience is kids, look at the starter guide. Nothing wrong with that per se, kids come in all ages
         - It's a proprietary design. 
 - ***PYNQ - Xilinx FPGA***
     - Pros:
@@ -47,7 +47,7 @@ A comprehensive performance comparison would make a project in itself, so this i
     - Pros:
         - Popular, been around, plenty of community
         - Runs tethered and cool on USB 2.0, ie, low power consumption, could run on battery
-        - PRU processor can stream data, ie, oscilloscope-like
+        - Real-time PRU co-processor can stream data, ie, oscilloscope-style
         - 100% open source project, both hardware and software
     - Cons:
         - No fatal flaws, slightly more expensive than equivalent RPi
@@ -55,21 +55,21 @@ A comprehensive performance comparison would make a project in itself, so this i
     - Pros:
         - Uses a bonafide industrial controller with huge featureset
         - 100% open source project, both hardware and software
-        - The "black" and the "AI" share the same cape outline
+        - The "black" and the "AI" share the same cape pinout
+            - The AI is a superset of the Black
     - Cons:
         - Needs USB 3.0 to run tethered. 
         - Might run hot and need cooling, but a little fan is available
         - Rounding the 100 bucks threshold
 <br>
-<br>
 
-**The BeagleBone is the choice and here's why:** <br>
+## The BeagleBone is the choice and here's why: <br>
 - Price is accessible. Boards are in stock at normal parts suppliers (Digi-Key, Mouser, Newark)
-- 100% open source project best suits the university
+- 100% open source project best suits the university and modern data transparency concepts
 - Fully documented and all design files available. Redoing the board isn't for the faint-hearted, but possible
 - Two flavors: Chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
 - The AM5729 processor on the AI version is an industrial controller with seemingly inexhaustable specs
     - The software paradigm will change before the hardware possibilities are fully exploited
-- The two BeagleBones have the same cape pinout and footprint. Many of the peripherals are common, which means the capes would be cross-compatible 
-- The PRU processor allows real-time processing, data streaming, live control, etc
+- The two BeagleBones have the same cape pinout. Many of the peripherals are common, which means the capes would be cross-compatible 
+- The PRU co-processor allows real-time processing, data streaming, live control, etc
 
