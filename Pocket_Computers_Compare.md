@@ -70,6 +70,7 @@ A comprehensive performance comparison would make a project in itself, so this i
 - Two flavors: Chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
 - The AM5729 processor on the AI version is an industrial controller with seemingly inexhaustable specs
     - The software paradigm will change before the hardware possibilities are fully exploited
-- The two BeagleBones have the same cape pinout. Many of the peripherals are common, which means the capes would be cross-compatible 
-- The PRU co-processor allows real-time processing, data streaming, live control, etc
+- Both Beagles have the same cape pinout. Many of the peripherals are common, which means the capes are cross-compatible 
+- The PRU co-processor is intended for real-time processing, data streaming, live control, etc
+    - Can program in ASSEMBY with a 45-count RISC instruction set, full gamut from highest to lowest level programming.
 
