@@ -62,6 +62,7 @@ A comprehensive performance comparison would make a project in itself, so this i
         - Rounding the 100 bucks threshold
 <br>
 <br>
+
 **The BeagleBone is the choice and here's why:** <br>
 - Price is accessible. Boards are in stock at normal parts suppliers (Digi-Key, Mouser, Newark)
 - 100% open source project best suits the university
