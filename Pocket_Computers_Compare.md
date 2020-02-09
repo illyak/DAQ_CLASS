@@ -9,61 +9,65 @@ https://en.wikipedia.org/wiki/Comparison_of_single-board_computers
 <br>
 Here are some of the considerations relevant to this project:
 - To be used as a **data acquisition engine**
-- To be able to collect real data in a university and/or industrial setting
-    - So for learning how to do it but also for actually doing it
+- Can be used for teaching data acquisition but also for real use in the field
 - Run Jupyter Notebook
-- Accepts a daughtercard type plug-in with assorted actuators or sensors.
-- Able to interface with lab bench instruments (multimeters, waveform generators, oscilloscopes, etc)
-- Nominal/reasonable cost
+- Low level interface to I2C or SPI serial protocol
+    - The intent is to build a plug-in board with an assortment of actuators and sensors for this purpose
+- High level interface to standard lab bench instruments with GPIB/VISA protocol  
+- Practicality: readily available for a nominal/reasonable cost and straighforward to use
 
-For acquiring data from a sensor once every second, almost any cheap microcontroller will do. However, as acquisition speeds and resolutions increase, the data through-put increases and then real processing power is needed. Being able to compute or display results will require even more. Running under Jupyter Notebook requires more yet still. 
+For acquiring data from a sensor once every second, almost any microcontroller will do. As acquisition speeds and resolutions increase, the data through-put increases and then real processing power is needed. Being able to compute or display results will require even more. Running under Jupyter Notebook requires more yet still. One might also want to control lab bench instruments. There are also the practical considerations: price, availability, user base, minimal required accessories and cables, ease of use, etc.
 
-There's also the practical side of price, availability, user base, ease of use, etc. That narrows it down quickly to the following short list which I looked at:
+A comprehensive comparison would make a project in itself, so this is somewhat subjective in the interest of time. The short list of pocket computers considered:
 
 - ***Raspberry Pi 4***
     - Pros:
-        - Very popular
-        - Best cost/performance
-        - Widely available
-        - No fatal flaws, would work too
+        - Very popular, low cost, most people would probably first think of using this
+        - Nothing wrong, it would work too
     - Cons:
-        - Needs USB 3.0 to run tethered.
+        - Needs USB 3.0 power to run tethered
         - Uses a Broadcom multimedia processor which is intended for entertainment.
-            - *Arguably, entertainment is serious business*
-        - Target audience is kids, look at the starter guide. Nothing wrong about that per se. It's meant for kids of all ages.
+            - *Entertainment is mostly what people are using it for*
+        - Target audience is kids, look at the starter guide. Nothing wrong with that per se, kids of all ages.
         - It's a proprietary design. 
+- ***PYNQ - Xilinx FPGA***
+    - Pros:
+        - Runs Jupyter right out of the box, the whole point of it
+    - Cons:
+        - FPGA is overkill for our purposes of setting up a data collection and instrument control framework 
+            - *High-speed acquisition, ie. oscilloscopes, use FPGAs, but that would be a much bigger project* 
+        - Approaching 200 bucks for a setup
+        - Cable spaghetti: needs Ethnet *and* USB *and* wallwart
 - ***Arduino***
     - Pros:
-        - Very popular
-        - Lowest cost
-        - Easiest way to add "smarts" to a project
+        - Very popular, lowest cost, doesn't need any intro
     - Cons:
-        - Atmel microcontroller core, not running embedded Linux ***disqualifies it.***
+        - Uses an Atmel microcontroller which is not immediately and obviously powerful enough to run Jupyter
 - ***BeagleBone Black***
     - Pros:
-        - Popular enough
-        - Runs tethered on USB 2.0, ie, low power consumption
-        - PRU processor can stream data
+        - Popular, been around, plenty of community
+        - Runs tethered and cool on USB 2.0, ie, low power consumption, could run on battery
+        - PRU processor can stream data, ie, oscilloscope-like
         - 100% open source project, both hardware and software
     - Cons:
         - Slightly more expensive than equivalent RPi
-        - 
 - ***BeagleBone AI***
     - Pros:
-        - Quite a rocket
-        - PRU processor can stream data
+        - The processor data manual is 8063 pages. This is a real industrial controller
+        - PRU co-processor can stream data, ie, oscilloscope-like
         - 100% open source project, both hardware and software
+        - The "black" and the "AI" share the same cape outline
     - Cons:
         - Needs USB 3.0 to run tethered. 
-        - Might run hot and need cooling, depending on what is running (there's a little fan available)
-        - About 2x the price of the RPi (pinches but doesn't disqualify it)
+        - Might run hot and need cooling, but a little fan is available
+        - More money than the RPi but not prohibitively. 
 
 **The BeagleBone is the choice and here's why:** <br>
 - Price is accessible. Boards are in stock at several suppliers
 - 100% open source project best suits the university
 - Fully documented and all design files available. Redoing the board isn't for the faint-hearted, but possible
-- There are two flavors: You can chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
+- There are two flavors: Can chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
 - The AM5729 processor in the AI version is an industrial controller with impressive specs
 - The two BeagleBones have the same cape pinout and footprint. Many of the peripherals are common, which means the capes would be cross-compatible 
-- The PRU processor allows real-time processing, data streaming
+- The PRU processor allows real-time processing, data streaming, live control, etc.
 
