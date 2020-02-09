@@ -12,7 +12,7 @@ Here are some of the considerations relevant to this project:
 - Can be used for teaching data acquisition but also for real use in the field
 - Run Jupyter Notebook
 - Low level interface to I2C or SPI serial protocol
-    - The intent is to build a plug-in board with an assortment of actuators and sensors for this purpose
+    - Accepts plug-in boards with an assortment of actuators and sensors
 - High level interface to standard lab bench instruments with GPIB/VISA protocol  
 - Practicality: readily available for a nominal/reasonable cost and straighforward to use
 
@@ -42,7 +42,7 @@ A comprehensive comparison would make a project in itself, so this is somewhat s
     - Pros:
         - Very popular, lowest cost, doesn't need any intro
     - Cons:
-        - Uses an Atmel microcontroller which is not immediately and obviously powerful enough to run Jupyter
+        - Uses an Atmel microcontroller which **cannot** run Jupyter
 - ***BeagleBone Black***
     - Pros:
         - Popular, been around, plenty of community
@@ -53,8 +53,7 @@ A comprehensive comparison would make a project in itself, so this is somewhat s
         - Slightly more expensive than equivalent RPi
 - ***BeagleBone AI***
     - Pros:
-        - The processor data manual is 8063 pages. This is a real industrial controller
-        - PRU co-processor can stream data, ie, oscilloscope-like
+        - Uses a bonafide industrial controller
         - 100% open source project, both hardware and software
         - The "black" and the "AI" share the same cape outline
     - Cons:
@@ -63,11 +62,12 @@ A comprehensive comparison would make a project in itself, so this is somewhat s
         - More money than the RPi but not prohibitively. 
 
 **The BeagleBone is the choice and here's why:** <br>
-- Price is accessible. Boards are in stock at several suppliers
+- Price is accessible. Boards are in stock at normal parts suppliers (Digi-Key, Mouser, Newark)
 - 100% open source project best suits the university
 - Fully documented and all design files available. Redoing the board isn't for the faint-hearted, but possible
-- There are two flavors: Can chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
+- There are two flavors: Chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
 - The AM5729 processor in the AI version is an industrial controller with impressive specs
+    - The software paradigm will change before the hardware possibilities are fully exploited
 - The two BeagleBones have the same cape pinout and footprint. Many of the peripherals are common, which means the capes would be cross-compatible 
-- The PRU processor allows real-time processing, data streaming, live control, etc.
+- The PRU processor allows real-time processing, data streaming, live control, etc
 
