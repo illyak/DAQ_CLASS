@@ -65,10 +65,11 @@ A comprehensive performance comparison would make a project in itself, so this i
 <br>
 
 ## The BeagleBone is the choice and here's why: <br>
+***Actually, it is a tough call. The Raspberry Pi 4 would work too*** <br>
 - Price is accessible. Boards are in stock at normal parts suppliers (Digi-Key, Mouser, Newark)
-- 100% open source project best suits the university and modern data transparency concepts
+- 100% open source project seems more inline with the university and modern data transparency concepts
 - Fully documented and all design files available. Redoing the board isn't for the faint-hearted, but possible
-- Two flavors: Chose between a low-power Beagle (Black) and a strong processor Beagle (AI)
+- Two flavors: Choose between a low-power Beagle (Black) and a strong processor Beagle (AI)
 - The AM5729 processor on the AI version is an industrial controller with seemingly inexhaustable specs
     - The software paradigm will change before the hardware possibilities are fully exploited
 - Both Beagles have the same cape pinout. Many of the peripherals are common, which means the capes are cross-compatible 
