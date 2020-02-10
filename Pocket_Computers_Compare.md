@@ -64,7 +64,7 @@ A comprehensive performance comparison would make a project in itself, so this i
         - Rounding the 100 bucks threshold
 <br>
 
-## The BeagleBone is the choice and here's why: <br>
+## The BeagleBone is the choice for this project: <br>
 ***Actually, it is a tough call. The Raspberry Pi 4 would work too*** <br>
 - Price is accessible. Boards are in stock at normal parts suppliers (Digi-Key, Mouser, Newark)
 - 100% open source project seems more inline with the university and modern data transparency concepts
@@ -75,4 +75,5 @@ A comprehensive performance comparison would make a project in itself, so this i
 - Both Beagles have the same cape pinout. Many of the peripherals are common, which means the capes are cross-compatible 
 - The PRU co-processor is intended for real-time processing, data streaming, live control, etc
     - Can program in ASSEMBY with a 45-count RISC instruction set, full gamut from highest to lowest level programming.
+- Subjectivity, previous experience, personal bias... 
 
