@@ -23,13 +23,14 @@ A comprehensive performance comparison would make a project in itself, so this i
 - ***Raspberry Pi 4***
     - Pros:
         - Very popular, low cost, most people would probably first think of using this
-        - Nothing wrong, it would work too
+        - A tough call, nothing wrong, it would work too
     - Cons:
         - Needs USB 3.0 power to run tethered
         - Uses a Broadcom multimedia processor which is intended for entertainment.
-            - *Entertainment is mostly what people are using it for*
-        - Target audience is kids, look at the starter guide. Nothing wrong with that per se, kids come in all ages
-        - It's a proprietary design. 
+            - *Doesn't mean it is lacking performance though*
+        - Target audience is school kids, look at the starter guide
+            - Nothing wrong with that per se, it still is very capable
+        - It is a proprietary design 
 - ***PYNQ - Xilinx FPGA***
     - Pros:
         - Runs Jupyter right out of the box, the whole point of this board
