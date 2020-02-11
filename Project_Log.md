@@ -64,7 +64,10 @@ The RPi is definitely better marketed, take a look at the "about us" section on 
 <br>
 I already decided to make a cape board for the Beagle and have been working through that. So far I have a decent board concept/purpose and all the parts picked, although that isn't completely final. It is a sensor board with enough stuff to pass through many sensoring and data logging concepts. Hours of fun...
 <br>
-Meanwhile, I looked around what other capes are out there, so I'm not duplicating effor. Indeed, there is a directly usable cape, called the PRU cape, which plugs into the Beagle and offers enough to get going, if not to handle the entire project, depending on how deep one wants to go. The PRU cape is a fine backup or baseline and I have the option of customizing and making it better. You can't be in a better position in a hardware/software development project!
+<br>
+Meanwhile, I looked around what other capes are out there, so I'm not duplicating effor. I am duplicating effort to some extent. There is quite a spread of capes available and also little add-on boards from https://www.adafruit.com/ , https://www.sparkfun.com/ , and https://www.seeedstudio.com , amoung many others. This falls under IoT, which is a hot topic these days. 
+
+But there's nothing like customized hardware and so I'll continue down that path. There is a directly usable cape, called the PRU cape, from none other than Texas Instruments, which plugs into the Beagle and offers enough to get going, if not to handle the entire project, depending on how deep one wants to go. The PRU cape is my version of a backup or baseline and I am in parallel customizing a cape with all the relevant stuff all on one. That's a safe position in a hardware/software development project!
 <br>
 <br>
 Next steps are to get the Notebook running on the Beagle.
