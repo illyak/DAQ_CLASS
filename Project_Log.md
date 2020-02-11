@@ -52,4 +52,19 @@ Inspirational chat with Prof Tim... In agreement with the Beagle idea with the p
 - Start looking at whether the Notebook can run on it or what it would take.
 - Start keeping track of references, maybe as another markup file, of relevant books, websites, projects, etc.
 
+**Feb 10 2020**
+
+Started writing up the proposal over the weekend. Tougher task than I thought to make it sound coherent but I figure the effort is not in waste because it mostly gets recycled into the final paper. Better to chop away at it in pieces. I want to maintain that Feb 14 deadline. I presume it can be added to and modified as needed throughout the course of this project.
+
+I looked at the Raspberry Pi...<br>
+For a while I had my doubts about the BeagleBone Black as the approach to take. Everything looked better on the RPi. And their latest, the RPi-4, had even more to offer. So I eventually went back to the Beagle.org site wondering whether those guys have just been lollygagging around. Hmm... What's that Beagle AI? Just a refreshed Beagle Black? Soon discover it's essentially the Beagle X15, which was a sleeper industrial embedded computer that seemed to never have gotten anywhere, shoehorned into the standard Beagle-size board footprint. It has an industrial processor which is essentially par with the RPi, give or take. 
+<br> 
+The RPi is definitely better marketed, take a look at the "about us" section on their site and see how many folks are sales and marketing. Nothing wrong with that, I suppose. In the end, it is a propietary design though. 
+<br>
+I already decided to make a cape board for the Beagle and have been working through that. So far I have a decent board concept/purpose and all the parts picked, although that isn't completely final. It is a sensor board with enough stuff to pass through many sensoring and data logging concepts.
+<br>
+Meanwhile, there is a directly usable cape, called the PRU cape, which plugs into the Beagle and offers enough to get going, if not to handle the entire project, depending on how deep one wants to go. The PRU cape is a fine backup or baseline and I have the option of customizing and making it better, a good position with that.
+<br>
+Next steps are to get the Notebook running on the Beagle.
+
 
