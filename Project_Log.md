@@ -52,7 +52,7 @@ Inspirational chat with Prof Tim... In agreement with the Beagle idea with the p
 - Start looking at whether the Notebook can run on it or what it would take.
 - Start keeping track of references, maybe as another markup file, of relevant books, websites, projects, etc.
 
-**Feb 10 2020**
+**Feb 10, 2020**
 
 Started writing up the proposal over the weekend. Tougher task than I thought to make it sound coherent but I figure the effort is not in waste because it mostly gets recycled into the final paper. Better to chop away at it in pieces. I want to maintain that Feb 14 deadline. I presume it can be added to and modified as needed throughout the course of this project.
 
@@ -66,10 +66,20 @@ I already decided to make a cape board for the Beagle and have been working thro
 <br>
 <br>
 Meanwhile, I looked around what other capes are out there, so I'm not duplicating effor. I am duplicating effort to some extent. There is quite a spread of capes available and also little add-on boards from https://www.adafruit.com/ , https://www.sparkfun.com/ , and https://www.seeedstudio.com , amoung many others. This falls under IoT, which is a hot topic these days. 
-
+<br>
 But there's nothing like customized hardware and so I'll continue down that path. There is a directly usable cape, called the PRU cape, from none other than Texas Instruments, which plugs into the Beagle and offers enough to get going, if not to handle the entire project, depending on how deep one wants to go. The PRU cape is my version of a backup or baseline and I am in parallel customizing a cape with all the relevant stuff all on one. That's a safe position in a hardware/software development project!
 <br>
 <br>
-Next steps are to get the Notebook running on the Beagle.
+Todo:
+- Continue distilling the hardware situation
+- Need to get the Notebook running on the Beagle
+
+**Feb 12, 2020**
+
+Worked on the details of the cape schematic last night and started wondering whether I got some rabbit-holes here. I found some very slick parts, like the Bosch BME680 environmental sensor which measures VOC gas (air quality), barometric pressure, humidity, and temperature. Trouble is, from reading the datasheet, it doesn't look like simple register read/writes to get the data. Digging further into the docs, they say there is an API. That might be a little more envolved then I want to or need to be. TBD... 
+<br>
+In the interest of fair dislosure, I work for TI. So the Beagle, which uses a TI processor, might be getting some preferential treatment. Still, I think the fact that it is an off-the-shelf processor and the Beagles are all 100% open source, I think, is the better way to go.
+<br>
+I was mulling through the part datasheet how the I2C peripheral is routed out to which header pin. Hooha, is that thing complicated! As if the hundreds of pins wasn't enough, each pin has over a dozen port functions which have to be assigned to be brought out to the actual working pin. All that stuff usually gets set in a "driver", nobody would ever worry about it. But where does that driver come from? Someone has to write it. Sooner or later, you have to map out the pins and get the right connection to be able to interface hardware with software.   
 
 
