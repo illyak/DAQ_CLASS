@@ -26,9 +26,9 @@ A comprehensive performance comparison would make a project in itself, so this i
         - A tough call, nothing wrong, it would work too
     - Cons:
         - Needs USB 3.0 power to run tethered
-        - Uses a Broadcom multimedia processor which is intended for entertainment.
+        - Uses a Broadcom communications processor which is intended for switches and routers.
             - *Doesn't mean it is lacking performance though*
-        - Target audience is school kids, look at the starter guide
+        - Target audience is school kids, as reflected in the starter guide
             - Nothing wrong with that per se, it still is very capable
         - It is a proprietary design 
 - ***PYNQ - Xilinx FPGA***
@@ -38,6 +38,7 @@ A comprehensive performance comparison would make a project in itself, so this i
         - FPGA is overkill for our purposes of setting up a data collection and instrument control framework 
             - *High-speed acquisition, ie. oscilloscopes, use FPGAs, but that would be a much bigger project* 
         - Approaching 200 bucks for a setup
+        - Programming requires HDL, such as VeriLog, which is also a much bigger project
         - Cable spaghetti: needs Ethernet *and* USB *and* wallwart for debug
 - ***Arduino***
     - Pros:
@@ -54,7 +55,7 @@ A comprehensive performance comparison would make a project in itself, so this i
         - No fatal flaws, slightly more expensive than equivalent RPi
 - ***BeagleBone AI***
     - Pros:
-        - Uses a bonafide industrial controller with huge featureset
+        - Uses a general purpose high-end industrial controller 
         - 100% open source project, both hardware and software
         - The "black" and the "AI" share the same cape pinout
             - The AI is a superset of the Black
