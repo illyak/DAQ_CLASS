@@ -82,4 +82,16 @@ In the interest of fair dislosure, I work for TI. So the Beagle, which uses a TI
 <br>
 I was mulling through the part datasheet how the I2C peripheral is routed out to which header pin. Hooha, is that thing complicated! As if the hundreds of pins wasn't enough, each pin has over a dozen port functions which have to be assigned to be brought out to the actual working pin. All that stuff usually gets set in a "driver", nobody would ever worry about it. But where does that driver come from? Someone has to write it. Sooner or later, you have to map out the pins and get the right connection to be able to interface hardware with software.   
 
+**Feb 13, 2020**
+
+This evening I looked at the Beagle, thinking the hardware side can probably standby while I sort out the Beagle and whether Jupyter will run. That KiCAD is actually surprisingly easy to use and the few times I ever even needed to go into the documentation, what I wanted was there, easily clarified and I could get on with it. Meanwhile I got a board sample back for work which looks like what was intended, so that whole process is closed loop.   
+<br>
+So I got the latest Debian image and loaded it on the Beagle. I was running "headless" tethered to a main debugging PC via a USB cable. I poked around the Cloud9 IDE debugger, all well and all very nice. I got an LED to blink! And there was much rejoicing. That's as far as I got for the evening. Not sure I have some settings right for being able to download stuff to the Beagle from Git via the controlling PC and I'll look into that next. Probably should be able to give the Beagle a definitive thumbs up or down this weekend, whether I can get Jupyter to run on it. 
+<br>
+<br>
+**Got plans for the weekend...?** Should be pretty good weekend because:
+- Beagle AI -> ordered and coming tomorrow
+- PocketBeagle -> ordered and coming Friday
+- LP5036 EVM -> ordered and coming Friday. That's the color LED driver chip and with a couple wires I can jumper into the Beagle I2C serial bus lines to control. Other such kits are available.     
+
 
