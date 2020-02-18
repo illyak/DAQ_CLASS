@@ -92,6 +92,17 @@ So I got the latest Debian image and loaded it on the Beagle. I was running "hea
 **Got plans for the weekend...?** Should be pretty good weekend because:
 - Beagle AI -> ordered and coming tomorrow
 - PocketBeagle -> ordered and coming Friday
-- LP5036 EVM -> ordered and coming Friday. That's the color LED driver chip and with a couple wires I can jumper into the Beagle I2C serial bus lines to control. Other such kits are available.     
+- LP5036 EVM -> ordered and coming Friday. That's the color LED driver chip and with a couple wires I can jumper into the Beagle I2C serial bus lines to control. Other such kits are available.    
+
+**Feb 17, 2020**
+
+Good news:
+<br>
+Got Jupyter loading and server working on both the BBAI and the BBB... The AI gets fairly warm running its stuff so a little fan is probably not a bad idea. Or maybe the BBB will do for my purposes, it runs cool. I had a "headless" Linux image loaded on the BBB, so I was able to SSH and see that the Jupyter server was running but wasn't able to do anything, mainly because I'm not so versed in Linux commands and don't know what I'm doing... 
+<br>
+On the hardware side, all the parts I picked can be assigned unique addresses on the same I2C bus. Not sure if that's dumb luck or if  it's the intent of the spec. 
+<br>
+Next: I'll load the normal desktop version on the BBB. Then I'll load PyVISA to see whether I can run a Notebook to take a reading from a bench instrument, like a volt meter. <br>
+Also need to figure out how to use GIT from the BBB. 
 
 
