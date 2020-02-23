@@ -121,6 +121,20 @@ Current thinking:
 - A complication is that I am not certain the BBAI has the I2C bus peripheral brought out to the header. Most of the sensors use I2C serial bus. That would mean I'd have to redo the device tree. 
 - The device tree makes perfect sense to me, the question is whether I get lost in crappy documentation. A simple microcontroller can have its port pins redefined on the fly. With a complicatd processors, you have the device tree file to define the port pin functions at startup as part of the boot file. Then in an FPGA, you don't even have set port pin options, you have to define all that pin functionality and need tools like HDL to help with that.
 
-**Next step:** I'll run some tests on the BBAI and try to figure out the I2C situation.
+**Next step:** I'll proceed with the BBAI.
+
+**Feb 23, 2020**
+
+Added a little matchbox fan to the BBAI so it can run cooler and presumably not throttle down the clock. I booted from SD card, did the memory partition expansion to 128GB and installed Jupyter. Did the blinking LED trick. It generally seems to run much smoother than the Black, almost like a regular desktop. Perhaps we've reached the point where a welterweight processor running lean punches as hard as a super heavyweight loaded with full Windows handicap. Trying to run Jupyter and the Cloud9 IDE at the same time, on the other hand, left it hanging. So you have to do only one large thing at a time. Fair enough. The Jupyter part seems to be running decently though and that is encouraging. I imagine that simple sensor reads and updates to simple plots should work fine. Heavy 3-D motion graphics updating from XYZ accelerometers, probably not. But then again, this is intended as a sandbox type of platform, not for ultimate high performance. <br>
+<br>
+Then I checked what Python packages were loaded as part of the general Linux install. A nice buffet spread: Numpy was there, also the I2C library (goodie!) but not Matplotlib which I tried to load with a straight PIP command but it bawked because of some missing dependancy. That's another project for another day. I don't think Miniconda runs on ARM core processors to make all this handling one-stop-shopping. Maybe it did once but not anything recent I can find. Don't need all that much. <br>
+<br>
+Next, they constantly tell you to update all the various OS components which I tried but it hung on the kernel updates. Had to force reboot twice. Not sure how critical all those updates really are, I might not have the absolute latest, but not way off either and it seems to work fine without them. This just goes to show how half-baked this BBAI actually is though. I start and proceed according to their directions... and it doesn't work! <br>
+<br>
+Noticing noone else appears to be running Jupyter on the BBAI, so this is the latest and greatest, man. Nothing fatal about it yet either, just various gottchas which I think happen regardless of what platform, even hardware.<br>
+<br>
+Was able to find and look at a device tree file but do not have the serial cable to see whether it is the one which it is actually booting with. The I2C is brought out the the pin and is therefore at the header. Looks good on paper. It is probably easier to just try it and see what happens, than to scout the debug trail.    
+
+
 
 
