@@ -118,6 +118,10 @@ Current thinking:
 - What I thought was a lack of adequate memory issue is generally a non-issue. You can boot and run any of them off an SD card. The SD card is basically an SSD. With some secret Linux commands, the drive can be partitioned to full usage of the 16GB or even the 128GB cards I happen to have.
 - I have ***not*** yet fully verified the py-VISA library to interface with bench instruments. I can import it and run without errors, it sees there is something there but then I am lacking a (Windows only!) driver to open the channel to communicate. All I have is a handheld meter with a serial over USB and it's lacking a driver. I don't have any better instruments at home with either real USB or Ethernet. I'll take it to work to test. 
 - The BBB would have been nice because it is the most stable and practical. But it looks disqualified for lack of horsepower and we have to go with the BBAI. The BBAI is so new that the documentation is half-baked. 
-- A complication is that I am not certain the BBAI has I2C bus peripheral brought out to the header. Most all the sensors use I2C serial bus. That would mean I'd have to redo the device tree. So I need to mount an attack on that one next. 
+- A complication is that I am not certain the BBAI has the I2C bus peripheral brought out to the header. Most of the sensors use I2C serial bus. That would mean I'd have to redo the device tree. 
+- The device tree makes perfect sense to me, the question is whether I get lost in crappy documentation. A simple 8-pin microcontroller can have its port pins redefined on the fly. With a complicatd processors, you have the device tree file to define the port pin functions at startup as part of the boot file. Then in an FPGA, you don't even have set port pin options, you have to define all that pin functionality and need tools like VHDL to help with that.
+<br>
+<br>
+Next I'll run some tests on the BBAI.
 
 
