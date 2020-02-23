@@ -111,7 +111,7 @@ Not so fast...
 <br>
 I loaded the normal desktop Linux image version of the BBB, thinking I'd get crackin' writing some Notebooks...
 <br>
-Jupyter does "run" on the BBB, but we should rather say "crawl". I was able to get the on-board LED to blink from the Notebook, but it is unusably clunky and I think that is the way it is, not sure anything can be done about it to speed it up. This is apparently a processor limitation, taking too big a bite. Maybe that's why there's no chit-chat on the web about Jupyter running on the BBB. Aha!
+Jupyter does "run" on the BBB, but we should rather say "crawl". I was able to get the on-board LED to blink from the Notebook, but it is unusably clunky and I think that is the way it is, not sure anything can be done about it to speed it up. This is apparently a processor limitation, it's choking. Maybe that's why there's no chit-chat on the web about Jupyter running on the BBB. Aha!
 <br>
 <br>
 Current thinking: 
@@ -119,9 +119,8 @@ Current thinking:
 - I have ***not*** yet fully verified the py-VISA library to interface with bench instruments. I can import it and run without errors, it sees there is something there but then I am lacking a (Windows only!) driver to open the channel to communicate. All I have is a handheld meter with a serial over USB and it's lacking a driver. I don't have any better instruments at home with either real USB or Ethernet. I'll take it to work to test. 
 - The BBB would have been nice because it is the most stable and practical. But it looks disqualified for lack of horsepower and we have to go with the BBAI. The BBAI is so new that the documentation is half-baked. 
 - A complication is that I am not certain the BBAI has the I2C bus peripheral brought out to the header. Most of the sensors use I2C serial bus. That would mean I'd have to redo the device tree. 
-- The device tree makes perfect sense to me, the question is whether I get lost in crappy documentation. A simple 8-pin microcontroller can have its port pins redefined on the fly. With a complicatd processors, you have the device tree file to define the port pin functions at startup as part of the boot file. Then in an FPGA, you don't even have set port pin options, you have to define all that pin functionality and need tools like VHDL to help with that.
-<br>
-<br>
-Next I'll run some tests on the BBAI.
+- The device tree makes perfect sense to me, the question is whether I get lost in crappy documentation. A simple microcontroller can have its port pins redefined on the fly. With a complicatd processors, you have the device tree file to define the port pin functions at startup as part of the boot file. Then in an FPGA, you don't even have set port pin options, you have to define all that pin functionality and need tools like HDL to help with that.
+
+**Next step:** I'll run some tests on the BBAI and try to figure out the I2C situation.
 
 
