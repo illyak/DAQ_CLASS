@@ -144,9 +144,9 @@ Was able to find and look at a device tree file but do not have the serial cable
 
 **Feb 25, 2020**
 
-Was using the Linux I2C-Tools library to check what is even brought out to the pins. Confusion here! The schematic says I2C-4 and I2C-5 are on the header pins. The Linux i2cdetect command says i2c-0 and i2c-3 are turned on. The 8000-page manual says there are 5 I2C controllers labeled i= 1,2,3,4,5 and no zero. Somebody is mislabeled and I can only hope the confusion resolves in my favor. The Linux might be counting from zero and so that its i2c-3 is actually the hardware i2c-4. and the the Linux i2c-0 is actually the hardware i2c-1 which is reserved for the PMIC power supply chip, I can see on the schematic. I might get lucky. I am hoping to avoid that device tree stuff because that could burn a lot of time. But, then again, the whole point here is learning. <br>
+Was using the Linux I2C-Tools library on the BBAI to check what is even active. Confusion here! The 8000-page manual says there are 5x I2C controllers labeled i= 1,2,3,4,5 and not a zero. The schematic says I2C-4 and I2C-5 are brought out to the header. The Linux i2cdetect command says i2c-0 and i2c-3 are turned on. Somebody is mislabeled and I can only hope the confusion resolves in my favor. Now I suppose, the Linux might be counting from zero and so that its software i2c-3 is in fact the hardware i2c-4. Also the Linux software i2c-0 is actually the hardware i2c-1 which is reserved for the PMIC power supply chip, as I can see on the schematic. I might get lucky here yet. I am hoping to avoid that device tree stuff because that could burn a lot of time. But, then again, the whole point here is learning. <br>
 <br>
-Writing this entry today from the Beagle AI too... Ha!
+Writing this entry today from the BBAI too... Ha!
 
 
 
