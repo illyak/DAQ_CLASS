@@ -142,6 +142,12 @@ Was able to find and look at a device tree file but do not have the serial cable
 - Start using GIT for everything. Not so much revision control, it's better sharing and best crash-proofing. 
 - Install Matplotlib, maybe Pandas. 
 
+**Feb 25, 2020**
+
+Was using the Linux I2C-Tools to check what is even brought out to the pins. Confusion here. The schematic says I2C-4 and I2C-5 are on the header pins. The Linux i2cdetect command says i2c-0 and i2c-3 are turned on. I am hoping the schematic is mislabeled legacy from the Beagle Black. Otherwise, to turn on the ports as i2c, that's the device tree stuff I was hoping to avoid. But I guess this will be a bigger lesson yet still. <br>
+<br>
+Writing this with the Beagle AI... Ha!
+
 
 
 
