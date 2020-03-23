@@ -148,6 +148,16 @@ Was using the Linux I2C-Tools library on the BBAI to check what is even active. 
 <br>
 Writing this entry today from the BBAI too... Ha!
 
+**March 22, 2020**
+
+Note that nearly a month has passed since the last entry! That does not mean that nothing has happened in a month but more perhaps should have. I had a jolly momentum going but that stagnated somewhat, so it's time to stoke the furnace a bit. There is still time and space for a respectable finish.<br>
+<br>
+Where I left it off, but didn't enter it here, is that I am able to use the I2C on the BBAI. It is connected in the same way as the BBB which is generally good luck and prevents the deep grabs to device tree and all that. The next move was to make a cape with some sensors on it and then some nice Jupyter Notebooks to display functionality. <br>
+<br>
+Meanwhile, a few days ago, Prof Mihaela wrote me a personal email inquiring about the project proposal and some other such documents. True, they are needed, but I think those documents won't run away. I think the priority at this point is to get the cape board together because that has a lead time. While I'm waiting for it, I can fill in the docs and some of the things I mentioned above about GIT, duplicating the setup, etc. <br>
+<br>
+Will try to be more regular with these entries as I head towards the finish line.
+
 
 
 
