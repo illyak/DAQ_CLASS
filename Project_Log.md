@@ -1,7 +1,12 @@
 # DAQ_CLASS PROJECT LOG:
 COMP898 Master's Project Repository and LOG
 
-***This is the log of ideas and work on the project:***
+***This is the New and Improved log of ideas and work on the project:***
+
+**Feb 11, 2021**
+<br>
+<br>
+
 
 **Jan 27, 2020**
 
